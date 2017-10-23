@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "question": "Który z wymienionych to organizm jednokomórkowy?",
+      "answers": [
+        {
+          "content": "Pantofelek",
+          "isRight": "true"
+        },
+        {
+          "content": "Niedźwiedź brunatny",
+          "isRight": "false"
+        },
+        {
+          "content": "Jaskółka pospolita",
+          "isRight": "false"
+        },
+        {
+          "content": "Ryba piła",
+          "isRight": "false"
+        }
+      ]
+    },
+    {
+      "question": "Który z wymienionych procesów zachodzi u roślin?",
+      "answers": [
+        {
+          "content": "Fotosynteza",
+          "isRight": "true"
+        },
+        {
+          "content": "Proces 2",
+          "isRight": "false"
+        },
+        {
+          "content": "Proces 3",
+          "isRight": "false"
+        },
+        {
+          "content": "Proces 4",
+          "isRight": "false"
+        }
+      ]
+    },
+    {
+      "question": "Jak nazywamy inaczej krwinki białe?",
+      "answers": [
+        {
+          "content": "Fotosynteza",
+          "isRight": "true"
+        },
+        {
+          "content": "Proces 2",
+          "isRight": "false"
+        },
+        {
+          "content": "Proces 3",
+          "isRight": "false"
+        },
+        {
+          "content": "Proces 4",
+          "isRight": "false"
+        }
+      ]
+    }
+  ]
+}

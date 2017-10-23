@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "question": "Co jest stolicą Polski?",
+      "answers": [
+        {
+          "content": "Warszawa",
+          "isRight": "true"
+        },
+        {
+          "content": "Kraków",
+          "isRight": "false"
+        },
+        {
+          "content": "Gdańsk",
+          "isRight": "false"
+        },
+        {
+          "content": "Gdynia",
+          "isRight": "false"
+        }
+      ]
+    },
+    {
+      "question": "Co jest stolicą Niemiec?",
+      "answers": [
+        {
+          "content": "Berlin",
+          "isRight": "true"
+        },
+        {
+          "content": "Dortmund",
+          "isRight": "false"
+        },
+        {
+          "content": "Frankfurt",
+          "isRight": "false"
+        },
+        {
+          "content": "Monachium",
+          "isRight": "false"
+        }
+      ]
+    },
+    {
+      "question": "Co jest stolicą Ukrainy?",
+      "answers": [
+        {
+          "content": "Kijów",
+          "isRight": "true"
+        },
+        {
+          "content": "Lwów",
+          "isRight": "false"
+        },
+        {
+          "content": "Charków",
+          "isRight": "false"
+        },
+        {
+          "content": "Odessa",
+          "isRight": "false"
+        }
+      ]
+    },
+    {
+      "question": "Co jest stolicą Grecji?",
+      "answers": [
+        {
+          "content": "Ateny",
+          "isRight": "true"
+        },
+        {
+          "content": "Sparta",
+          "isRight": "false"
+        },
+        {
+          "content": "Teby",
+          "isRight": "false"
+        },
+        {
+          "content": "Korynt",
+          "isRight": "false"
+        }
+      ]
+    }
+  ]
+}

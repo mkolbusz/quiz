@@ -1,0 +1,13 @@
+{
+    "categories": [
+        {
+            "name": "Geografia",
+            "file": "geog1.json"
+        },
+        {
+            "name": "Biologia",
+            "file": "biol1.json"
+        }
+
+    ]
+}
