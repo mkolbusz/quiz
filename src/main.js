@@ -31,6 +31,7 @@ function startTimer() {
         } else {
             element.style.width = "0%";
             stopTimer();
+            check();
         }
         
         changeTimerColor(width, element);
@@ -66,7 +67,9 @@ function showQuestion(q){
     startTimer();
 }
 
-$(QUIZ_CONTAINER + ' .question .answers').on('click', '.answer', (event) => {
+$(QUIZ_CONTAINER + ' .question .answers').on('click', '.answer', check);
+
+function check(event){
     checkAnswer();
     if(!quizGame.isEnd()){
         showQuestion(quizGame.nextQuestion());
@@ -75,7 +78,7 @@ $(QUIZ_CONTAINER + ' .question .answers').on('click', '.answer', (event) => {
         stopTimer();
         showResults();
     }
-});
+}
 
 function checkAnswer() {
     let result = $('#quiz .question .answer:checked').val() == "true";
@@ -139,12 +142,12 @@ function showResults() {
         points += (result.result ? 1 : 0);
         $('#results table').append(`
         <tr>
-            <td>`+question.question+`</td>
-            <td>`+quizGame.getRightAnswer(question).content+`</td>
-            <td>`+question.answers[result.index].content+`</td>
-            <td>`+(result.result ? 1 : 0)+`</td>
+            <td>${question.question}</td>
+            <td>${quizGame.getRightAnswer(question).content}</td>
+            <td>${question.answers[result.index] ? question.answers[result.index].content : 'Brak odpowiedzi'}</td>
+            <td>${(result.result ? 1 : 0)}</td>
         </tr>`)
     });
-    $('#results table').prepend(`<tr><td colspan="3">Total points</td><td>`+points+`</td></tr>`);
+    $('#results table').prepend(`<tr><td colspan="3">Total points</td><td>${points}</td></tr>`);
     localStorage.removeItem("result");
 }
